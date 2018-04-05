@@ -24,17 +24,24 @@ class ViewController: UIViewController {
 
 
     @IBAction func play(_ sender: Any) {
+        if change == 1{
         mytimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(animation), userInfo: nil, repeats: true)
+        change = 0
+        }
+        else{
+        mytimer.invalidate()
+        change = 1
+        }
     }
     @IBAction func stop(_ sender: Any) {
          mytimer.invalidate()
     }
     @objc func animation(){
         //카운트가 5일때 1로 돌아가면서 타이머가 돌아감
-        //  if count == 5{
-        //      count = 1
+        //  if counter == 5{
+        //      counter = 1
         //  } else {
-        //      count = count + 1
+        //      counter = counter + 1
         //  }
         //카운트가1일땐 증가하다가 5를만나면 내려가면서 타이머가돌아감
         if counter == 5 {
