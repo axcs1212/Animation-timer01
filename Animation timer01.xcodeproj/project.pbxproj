@@ -12,6 +12,11 @@
 		FD6A3D2E2075C6A30000269D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6A3D2C2075C6A30000269D /* Main.storyboard */; };
 		FD6A3D302075C6A30000269D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6A3D2F2075C6A30000269D /* Assets.xcassets */; };
 		FD6A3D332075C6A30000269D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6A3D312075C6A30000269D /* LaunchScreen.storyboard */; };
+		FD6A3D402075C9B90000269D /* frame5.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6A3D3B2075C9B90000269D /* frame5.png */; };
+		FD6A3D412075C9B90000269D /* frame3.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6A3D3C2075C9B90000269D /* frame3.png */; };
+		FD6A3D422075C9B90000269D /* frame2.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6A3D3D2075C9B90000269D /* frame2.png */; };
+		FD6A3D432075C9B90000269D /* frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6A3D3E2075C9B90000269D /* frame1.png */; };
+		FD6A3D442075C9B90000269D /* frame4.png in Resources */ = {isa = PBXBuildFile; fileRef = FD6A3D3F2075C9B90000269D /* frame4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		FD6A3D2F2075C6A30000269D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD6A3D322075C6A30000269D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD6A3D342075C6A30000269D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6A3D3B2075C9B90000269D /* frame5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame5.png; sourceTree = "<group>"; };
+		FD6A3D3C2075C9B90000269D /* frame3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame3.png; sourceTree = "<group>"; };
+		FD6A3D3D2075C9B90000269D /* frame2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame2.png; sourceTree = "<group>"; };
+		FD6A3D3E2075C9B90000269D /* frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame1.png; sourceTree = "<group>"; };
+		FD6A3D3F2075C9B90000269D /* frame4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 		FD6A3D272075C6A30000269D /* Animation timer01 */ = {
 			isa = PBXGroup;
 			children = (
+				FD6A3D3A2075C9960000269D /* Image */,
 				FD6A3D282075C6A30000269D /* AppDelegate.swift */,
 				FD6A3D2A2075C6A30000269D /* ViewController.swift */,
 				FD6A3D2C2075C6A30000269D /* Main.storyboard */,
@@ -62,6 +73,18 @@
 				FD6A3D342075C6A30000269D /* Info.plist */,
 			);
 			path = "Animation timer01";
+			sourceTree = "<group>";
+		};
+		FD6A3D3A2075C9960000269D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				FD6A3D3E2075C9B90000269D /* frame1.png */,
+				FD6A3D3D2075C9B90000269D /* frame2.png */,
+				FD6A3D3C2075C9B90000269D /* frame3.png */,
+				FD6A3D3F2075C9B90000269D /* frame4.png */,
+				FD6A3D3B2075C9B90000269D /* frame5.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +146,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6A3D412075C9B90000269D /* frame3.png in Resources */,
 				FD6A3D332075C6A30000269D /* LaunchScreen.storyboard in Resources */,
+				FD6A3D422075C9B90000269D /* frame2.png in Resources */,
+				FD6A3D402075C9B90000269D /* frame5.png in Resources */,
+				FD6A3D442075C9B90000269D /* frame4.png in Resources */,
 				FD6A3D302075C6A30000269D /* Assets.xcassets in Resources */,
+				FD6A3D432075C9B90000269D /* frame1.png in Resources */,
 				FD6A3D2E2075C6A30000269D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
